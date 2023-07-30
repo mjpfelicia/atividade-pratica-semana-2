@@ -2,36 +2,93 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfolio :: Contato</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfolio :: Contato</title>
 </head>
 
 <body>
-    <img src="/img/header.svg" alt="logo" width="100%">
+  <img src="/img/header.svg" alt="logo" width="100%">
   <h3>
     <i><a href="index.html">Principal</a></i> ::
-    <!-- 2. Link para a página Quem Sou -->
     <i><a href="quemsou.html">Quem Sou</a></i> ::
-    <!-- 3. Link para a página Projetos -->
     <i><a href="projetos.html">Projetos</a></i> ::
-    <!-- 4. Link para a página Contato -->
     <i><a href="contato.html">Contato</a></i>
-
   </h3>
   <hr>
 
-
-
+  <h1>Contato</h1>
+  <ul>
+    <li>Residente em São Paulo/SP </li>
+    <li><a href="mailto:mjpfelicia@gmail.com">mjpfelicia@gmail.com</a></li>
+    <li>(11) 973241419</li>
+    <li><a href="https://www.linkedin.com/in/sandra-felicia-a23139197">LinkedIn</a></li>
+  </ul>
   <hr>
+  <h2>Formulário de Contato</h2>
+
+  <form>
+    <p>
+      <label for="txtNome">Nome</label><br>
+      <input type="text" name="nomeCompleto" id="txtNome">
+    </p>
+
+
+    <p>
+      <label for="selecAssunto">Assunto</label><br>
+      <select name="Assunto" id="selecAssunto">
+        <option>Selecione o assunto</option>
+        <option value="Sugestão">Sugestão</option>
+        <option value="Reclamação">Reclamação</option>
+        <option value="Orçamento">Orçamento</option>
+        <option value="Outros">Outros</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="txtmsg">Mensagem</label><br>
+      <textarea name="msg" id="txtmsg" cols="30" rows="5">
+      </textarea>
+    </p>
+
+    <p>
+      <input type="checkbox" id="txtNewletter" name="newletter">
+      <label for="txtNewletter">Deseja receber minha newsletter?</label>
+    </p>
+
+    <p>
+
+      <label for="nomeYouTube">Onde me encontrou?</label><br>
+
+      <input type="radio" name="ondeEncontrou" id="txtYouTube">
+      <label for="txtYouTube">YouTube</label><br>
+
+      <input type="radio" name="ondeEncontrou" id="txtGoogle">
+      <label for="txtGoogle">Google</label><br>
+
+      <input type="radio" name="ondeEncontrou" id="txtBing">
+      <label for="txtBing">Bing</label><br>
+
+      <input type="radio" name="ondeEncontrou" id="txtOutros">
+      <label for="txtOutros">Outros</label><br><br>
+
+      <input type="submit" value="Enviar">
+    </p>
+
+  </form>
+  <hr>
+
+
+
   <p>
     Copyright &copy; 2023
   </p>
   <p>
-    <!-- 11. Imagem "ifes.png" que está na pasta img, com 96 de altura -->
-  <p><img src="img/ifes.png" alt="logo" height="96"></p>
-    
+  <p>
+    <img src="img/ifes.png" alt="logo" height="96">
+  </p>
+
 </body>
 
 </html>
